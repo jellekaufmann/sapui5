@@ -59,7 +59,7 @@ sap.ui.define([
 		...
 		},
 
-						onSearch : function () {
+		onSearch : function () {
 			var oView = this.getView(),
 				sValue = oView.byId("searchField").getValue(),
 				oFilter = new Filter("LastName", FilterOperator.Contains, sValue);
